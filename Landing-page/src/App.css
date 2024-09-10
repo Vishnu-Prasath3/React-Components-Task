@@ -26,3 +26,13 @@ body{
   width: 100%;
   height: 92vh;
 }
+
+.Sec1{
+  height: 350px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
