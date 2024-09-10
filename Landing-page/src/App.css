@@ -15,12 +15,17 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.Herodev>h1{
-  color: white;
+.Herodev{
+  position: relative;
+  text-align: center;
 
 }
-.Herodev{
-
+.Hero-center{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
 }
 .Herodev img{
   width: 100%;
@@ -33,6 +38,6 @@ body{
   background-color: white;
   display: flex;
   justify-content: space-around;
-  
-  
+  position: relative;
+  align-items: center;
 }

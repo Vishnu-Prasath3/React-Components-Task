@@ -6,8 +6,8 @@ export default function(){
         < >
         <div className="Herodev">
         
-        <img src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&w=600"></img>
-        <h1>Generate more leads with a professional Landing page!</h1>
+        <img src="https://images.unsplash.com/photo-1497290756760-23ac55edf36f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2VhfGVufDB8fDB8fHww"></img>
+        <div className="Hero-center"><h1>Generate more leads with a professional landing page!</h1></div>
         
             </div>
         </>
