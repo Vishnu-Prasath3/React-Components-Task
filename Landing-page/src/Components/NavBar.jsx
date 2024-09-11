@@ -6,7 +6,7 @@ export default function(){
         <>
         <div className="Navbar">
             <p>start BootStrap</p>
-            <button type="button" class="btn btn-primary">Sign up</button>
+            <button type="button" className="btn btn-primary">Sign up</button>
 
         </div>
         </>

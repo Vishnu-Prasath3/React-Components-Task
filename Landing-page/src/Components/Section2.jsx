@@ -1,21 +1,21 @@
-import { Button } from "bootstrap";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 
 export default function(){
+let[change,setChange]=useState()
+useEffect(()=>{
+//side efffect score is here
+console.log("useEffect");
 
-    const[show,setshow]=useState(0);
-     
-  let btnclick=()=>{
-    for(let i=1;i<6;i++){
-        setshow(show+i);
-    }
-  }
+},[change])  
+
 
 return(
 <>
-<button onDoubleClick={()=>{setshow(show-5)}} onClick={btnclick}>click here to increase</button>
-<h1>{show}</h1>
-
+<div className="sec-two">
+<button onClick={()=>{
+    setChange(change+"changed")
+}}>Prasathly</button>
+</div>
 </>
 )
 }
