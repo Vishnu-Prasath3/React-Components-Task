@@ -41,3 +41,15 @@ body{
   position: relative;
   align-items: center;
 }
+.Section2div{
+ display:flex;
+  background-color: white;
+}
+.DivOfContent{
+ width: 1/2;
+  text-align: center;
+}
+.DivOfImg{
+  width:1/2; 
+  height: max-content;
+}
