@@ -20,6 +20,11 @@ body{
   text-align: center;
 
 }
+.heroBtn{
+  height: 55px;
+
+}
+
 .Hero-center{
   position:absolute;
   top: 50%;
@@ -27,11 +32,21 @@ body{
   transform: translate(-50%,-50%);
   color: white;
 }
+.Hero-div2{
+display: flex;
+justify-content: space-around;
+margin: 0 100px;
+}
 .Herodev img{
   width: 100%;
   height: 92vh;
 }
-
+.Herodev input{
+  width: 300px;
+  height: 55px;
+  border:none;
+  border-radius: 10px;
+}
 .Sec1{
   height: 350px;
   width: 100%;

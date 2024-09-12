@@ -13,9 +13,11 @@ const[divs,setDivs]=useState([ <div key="1">
 ]);
 return(
 <>
+
 <div className="Section2div">
 {divs.map((div)=>(<div key={div.key}>{div}</div>))}
 
+=
 </div>
 </>
 )
