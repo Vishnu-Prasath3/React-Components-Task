@@ -68,3 +68,28 @@ margin: 0 100px;
   width:1/2; 
   height: max-content;
 }
+
+/* section3 */
+.Section3{
+height: 90vh;
+width: 100%;
+background-color: rgba(255, 255, 255, 0.942);
+text-align: center;
+position: relative;
+}
+.section3-div{
+  position: relative;
+  top:100px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.section3-div>div{
+  width: 50%;
+}
+.section3-div>div>img{
+  border-radius: 50%;
+}
+
+/* end section */
+
